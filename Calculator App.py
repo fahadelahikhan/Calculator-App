@@ -16,6 +16,10 @@ class SimpleCalculator:
         # Create the buttons
         self.create_buttons()
 
+        # Initialize Ui Elements
+        self.display_var = None
+        self.display = None
+
     def create_display(self):
         """Create the calculator display field"""
         self.display_var = tk.StringVar()
